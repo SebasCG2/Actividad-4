@@ -89,7 +89,7 @@ if (edad_conyuge_numero>=18 && edad_conyuge_numero<25){
 if (total_hijos_numero == total_hijos_numero){
   recargo = precio_base * (hijos_recargo * total_hijos_numero)
   recargo_total = recargo_total + recargo
-}else total_hijos_numero
+}
 
 precio_final = precio_base + recargo_total
 //Resultado
