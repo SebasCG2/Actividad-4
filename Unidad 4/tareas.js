@@ -61,7 +61,7 @@ if(edad_numero>=18 && edad_numero<25){
   recargo = precio_base * edad_18
   //Sumamos todos los recargos que hemos obtenido
   recargo_total = recargo_total + recargo
-}else if(edad_numero>=25 && edad_numero<49){
+}else if(edad_numero>=25 && edad_numero<50){
   recargo = precio_base * edad_25
   recargo_total = recargo_total + recargo
 }else if (edad_numero>=50){
